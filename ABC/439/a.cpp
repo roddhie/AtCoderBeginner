@@ -4,13 +4,8 @@
 using namespace std;
 
 int main() {
-    // int N, power2 = 1;
-    // cin >> N;
-    // rep1(i, N) power2 *= 2;
-    int N, power2;
+    int N;
     cin >> N;
-    // power2 = 1 <<N;
-    
 
     cout << (1 << N) -N*2 << endl;
     return 0;
