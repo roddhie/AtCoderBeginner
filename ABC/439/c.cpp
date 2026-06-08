@@ -32,3 +32,24 @@ int main() {
 
     return 0;
 }
+
+// example answer
+// int main() {
+//     int n;
+//     cin >> n;
+//     vector<int> cnt(n+1);
+//     for(int x=1;x*x < n; x++) {
+//         for (int y=1; x*x+y*y<=n; y++) {
+//             cnt[x*x+y*y]++;
+//         }
+//     }
+
+//     vector<int> ans;
+//     for(int i=1; i<=n;i++) {
+//         if(cnt[i] == 1) ans.push_back(i);
+//     }
+
+//     cout << ans.size() << endl;
+//     for(int x: ans) cout << x << endl;
+//     return 0;
+// }
